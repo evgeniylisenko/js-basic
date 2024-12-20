@@ -1,1 +1,1 @@
-console.log('Hey, this is my first JS programgi');
+console.log('Hey, this is my first JS program');
