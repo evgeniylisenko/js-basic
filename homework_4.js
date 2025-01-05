@@ -11,13 +11,11 @@ for (let i = 2; i < number; i++) {
     }
 }
 
-console.log(isPrimeNumber ? number  + '- просте число' : number + ' - непросто число');
-
-// if (isPrimeNumber) {
-//     console.log(number + ' - просте число');
-// } else {
-//     console.log(number + ' - непросто число');
-// }
+if (isPrimeNumber) {
+    console.log(number + ' - просте число');
+} else {
+    console.log(number + ' - непросто число');
+}
 
 
 ///Вам необхідно написати програму, яка приймає на вхід число N і знаходить усі числа в діапазоні від 1 до N, які є досконалими числами.
