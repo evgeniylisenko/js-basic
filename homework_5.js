@@ -1,6 +1,12 @@
 //Вам необхідно написати функцію reverseString(str), яка приймає на вхід рядок і повертає його у зворотному порядку.
 function reverseString(str) {
-    return str.split("").reverse().join("");
+    let result = ''
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        result += str[i];
+    }
+    // return str.split("").reverse().join("");
+    return result;
 }
 
 console.log(reverseString('hellow world'));
