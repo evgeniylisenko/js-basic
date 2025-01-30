@@ -78,8 +78,8 @@ for (let item of notifications) {
 // - записувати в cache обчислений квадрат від х в разі його відсутності в cache
 // - повертати новий запис з cache
 
-
 const cache = new Map();
+
 function sqr(x, cache) {
 
     if (cache.has(x)) return cache.get(x);
