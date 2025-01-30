@@ -70,7 +70,6 @@ for (let item of notifications) {
     console.log(item);
 }
 
-
 ////Написати функцію sqr, яка приймає 2 аргументи: (x, cache), де x є number і cache - зовнішній map.
 // Функція має виконувати умови:
 // - перевіряти, чи є в cache вже обчислений квадрат від х
@@ -81,9 +80,7 @@ for (let item of notifications) {
 
 function sqr(x, cache) {
 
-    if (cache.has(x)) {
-        return cache.get(x);
-    }
+    if (cache.has(x)) return cache.get(x);
 
     const result = x * x;
 
@@ -95,4 +92,3 @@ function sqr(x, cache) {
 const cache = new Map();
 
 console.log(sqr(5, cache));
-
