@@ -53,7 +53,6 @@ function Student(firstName, lastName, birthYear) {
        }
     };
 }
-
 function Group() {
     this.students = [];
 
