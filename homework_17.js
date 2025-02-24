@@ -1,3 +1,5 @@
+// randomDelayPrint. Створіть функцію randomDelayPrint, яка прийматиме рядок message як аргумент і виводитиме кожну букву цього рядка з довільною затримкою від 0 до 1 секунди.
+// Використовуйте setTimeout, щоб додати випадкову затримку перед виведенням кожної літери.
 const randomDelayPrint = (message) => {
     let delay = 0;
 
@@ -10,6 +12,9 @@ const randomDelayPrint = (message) => {
 };
 randomDelayPrint("Hello");
 
+// intervalRac.Створіть функцію intervalRace, яка прийматиме масив функцій та інтервал часу t у мілісекундах.
+// Функція intervalRace має викликати кожну функцію з масиву по черзі через заданий інтервал часу t.
+// Коли всі функції виконано, intervalRace має повернути масив із результатами.
 function intervalRace(functions, t) {
     return new Promise((resolve) => {
         let results = [], index = 0;
